@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <h2>Student Information Form</h2>
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <th colspan="2">Personal Information</th>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="first_name" required></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="last_name" required></td>
+            </tr>
+            <tr>
+                <td>Email ID:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <th colspan="2">Academic Information</th>
+            </tr>
+            <tr>
+                <td>Year:</td>
+                <td>
+                    <select name="year" required>
+                        <option value="FirstYear">FirstYear</option>
+                        <option value="Second Year">Second Year</option>
+                        <option value="Third year">Third Year</option>
+                        <option value="Final Year">Final Year</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Subjects:</td>
+                <td>
+                    <input type="checkbox" name="subjects" value="Artifical Intelligence">Artifical Intelligence<br>
+                    <input type="checkbox" name="subjects" value="Cyber Security">Cyber Security<br>
+                    <input type="checkbox" name="subjects" value="Internet Programming">Internet Programming<br>
+                    <input type="checkbox" name="subjects" value="Software Testing">Software Testing<br>
+                    <input type="checkbox" name="subjects" value="Internet of things">Internet of things<br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
