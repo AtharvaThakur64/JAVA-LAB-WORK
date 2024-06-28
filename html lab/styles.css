@@ -1,0 +1,79 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 10px; 
+}
+
+.image-container div {
+    text-align: center; 
+    flex: 0 0 calc(25% - 20px); 
+    box-sizing: border-box; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+    transition: transform 0.3s ease;
+}
+.image-container div:hover {
+    transform: translateY(-10px); 
+}
+
+
+.image-container img {
+    max-width: 100px; 
+    height: auto;
+    padding: 5px; 
+}
+
+.image-container p {
+    font-weight: bold; 
+    margin: 5px 0; 
+}
+
+.pokemon-type {
+    color: #666; 
+    font-style: italic; 
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-image {
+    width: 200px; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.search-filter-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#searchBox, #filterBox {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#searchBox {
+    width: 200px;
+}
+
+#filterBox {
+    width: 150px;
+}
